@@ -1,5 +1,9 @@
 {
     "python.linting.banditEnabled": false,
-    "python.linting.pylintEnabled": false,
-    "python.linting.enabled": false
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=C0111",
+        "--load-plugins=perflint",
+    ],
+    "python.linting.enabled": true
 }
